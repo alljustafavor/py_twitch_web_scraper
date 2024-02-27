@@ -37,4 +37,26 @@ This Python script leverages Selenium and NLTK to analyze the sentiment of recen
 
 2. **Run the Script:**
    ```bash
-   python main.py 
+   python main.py
+
+## Ideas for this project
+**Using React to Update a Python Lexicon Database**
+
+ **Conceptual Overview**
+
+1. **React Frontend:** Design a user interface for lexicon management.
+   * Input fields to add new words or phrases to the lexicon.
+   * Editing areas to modify existing entries.
+   * A display component to show the current lexicon contents.
+   * Buttons to trigger actions (add, edit, delete)
+
+2. **Python Backend (API):** Create a REST API using frameworks like Flask or Django to handle database interactions.
+   * **Endpoints:**
+      * `GET /lexicon` : Fetches the entire lexicon.
+      * `POST /lexicon`: Adds a new entry.
+      * `PUT /lexicon/<id>`: Updates an existing entry (where `<id>` is the entry's identifier).
+      * `DELETE /lexicon/<id>`: Deletes an entry.
+
+3. **Database:** Choose a database suitable for storing your lexicon.
+   * SQLite 
+
