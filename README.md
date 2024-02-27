@@ -37,4 +37,4 @@ This Python script leverages Selenium and NLTK to analyze the sentiment of recen
 
 2. **Run the Script:**
    ```bash
-   python twitch_sentiment_analyzer.py 
+   python main.py 
