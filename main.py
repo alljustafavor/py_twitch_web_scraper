@@ -87,7 +87,7 @@ def main():
 
         time.sleep(wait_for_chat_load)  # Additional wait after elements are visible
 
-        while len(chat_log) < 200:
+        while len(chat_log) < 20:
             try:
                 chat_messages = driver.find_elements(By.XPATH, "//div[@class='chat-line__message']")
                 for message in chat_messages:
