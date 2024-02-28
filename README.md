@@ -16,18 +16,11 @@ This Python script leverages Selenium and NLTK to analyze the sentiment of recen
 
 ## Setup
 
-1. **Prerequisites:**
+* **Prerequisites:**
    - Python 3 ([https://www.python.org/](https://www.python.org/))
    - Selenium ( `pip install selenium`)
    - NLTK ( `pip install nltk`)
    - A WebDriver for your browser (e.g., ChromeDriver for Chrome: [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/))
-
-2. **Download NLTK Data:**
-   - After installing NLTK, run the following in your Python terminal:
-     ```bash
-     import nltk
-     nltk.download('vader_lexicon')
-     ```
 
 ## Usage
 
